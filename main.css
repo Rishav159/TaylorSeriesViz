@@ -1,0 +1,180 @@
+#graph {
+    width: 100%;
+}
+#control {
+    width: 100%;
+}
+svg {
+    font: 10px sans-serif;
+    fill: rgb(255, 255, 255);
+  }
+  
+  .axis path, .axis line {
+    fill: none;
+    stroke: rgb(255, 255, 255);
+    shape-rendering: crispEdges;
+  }
+  
+  .x.axis line {
+    shape-rendering: auto;
+  }
+  
+  .line {
+    fill: none;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 1.5px;
+  }
+  html {
+    min-width: 960px;
+  }
+  
+  body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    position: relative;
+    background: #000;
+  }
+  
+  h1 {
+    font-size: 64px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    margin: .3em 0 .1em 0;
+  }
+  
+  h2 {
+    margin-top: 2em;
+  }
+  
+  h1, h2 {
+    text-rendering: optimizeLegibility;
+  }
+  
+  h2 a {
+    color: #ccc;
+    left: -20px;
+    position: absolute;
+    width: 740px;
+  }
+  
+  footer {
+    font-size: small;
+    margin-top: 8em;
+  }
+  
+  header aside {
+    margin-top: 88px;
+  }
+  
+  header aside,
+  footer aside {
+    color: #636363;
+    text-align: right;
+  }
+  
+  aside {
+    font-size: small;
+    right: 0;
+    position: absolute;
+    width: 180px;
+  }
+  
+  .attribution {
+    font-size: small;
+    margin-bottom: 2em;
+  }
+  
+  body > p, li > p {
+    line-height: 1.5em;
+  }
+  
+  body > p {
+    width: 720px;
+  }
+  
+  body > blockquote {
+    width: 640px;
+  }
+  
+  li {
+    width: 680px;
+  }
+  
+  a {
+    color: steelblue;
+  }
+  
+  a:not(:hover) {
+    text-decoration: none;
+  }
+  
+  pre, code, textarea {
+    font-family: "Menlo", monospace;
+  }
+  
+  code {
+    line-height: 1em;
+  }
+  
+  textarea {
+    font-size: 100%;
+  }
+  
+  body > pre {
+    border-left: solid 2px #ccc;
+    padding-left: 18px;
+    margin: 2em 0 2em -20px;
+  }
+  
+  sup, sub {
+    line-height: 0;
+  }
+  
+  q:before,
+  blockquote:before {
+    content: "“";
+  }
+  
+  q:after,
+  blockquote:after {
+    content: "”";
+  }
+  
+  blockquote:before {
+    position: absolute;
+    left: 2em;
+  }
+  
+  blockquote:after {
+    position: absolute;
+  }
+
+  #slider {
+    align-self: center;
+    -webkit-appearance: none;
+    width: 80%;
+    height: 15px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+#slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
